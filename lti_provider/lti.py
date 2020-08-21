@@ -102,7 +102,7 @@ class LTI(object):
         """
         if not request.session.get(LTI_SESSION_KEY, False):
             raise LTINotInSessionException('Session expired or unavailable')
-
+# gho
     def _verify_request(self, request):
         """
         Verify LTI request
