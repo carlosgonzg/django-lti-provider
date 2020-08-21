@@ -43,7 +43,7 @@ class LTIAuthMixin(object):
             return HttpResponseRedirect(reverse('lti-fail-auth'))
 
         # login
-        #login(request, user)
+        login(request, user)
 
         # configure course groups if requested
         try:

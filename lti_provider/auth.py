@@ -68,8 +68,8 @@ class LTIBackend(object):
     def authenticate(self, request, lti):
         try:
             lti.verify(request)
-            #return self.find_or_create_user(request, lti)
-            return lti.user_email(request)
+            return self.find_or_create_user(request, lti)
+            # return lti.user_email(request)
         except LTIException as e:
             lti.clear_session(request)
             print(e)
