@@ -1,0 +1,52 @@
+0.4.0
+==================
+* Fix course-aware flow infinite redirect
+* Add Python3 support
+* Drop Django 2.0 from testing
+
+0.3.4
+==================
+* Add X-Frame view exceptions
+* Allow for custom field configuration in config.xml
+
+0.3.3 (2018-02-13)
+===================
+* Configurable LTI parameters
+
+
+0.3.2 (2018-02-06)
+===================
+* MySQL database compatibility
+
+0.3.1 (2018-01-19)
+===================
+* Change how incoming requests are assessed/verified
+
+0.3.0 (2017-12-05)
+===================
+* Add django 2.0 support
+
+0.2.3 (2017-11-30)
+===================
+* Add success / failure messaging around grade passback
+
+0.2.2  (2017-11-03)
+===================
+* Fixed an encoding error on LTI init in Python 3
+
+0.2.1  (2017-10-26)
+===================
+* Python 3 fix: items() instead of iteritems()
+* Make LTIRoutingView exempt from CSRF checks
+
+0.2.0  (2017-10-20)
+===================
+* Session awareness
+* Refactoring auth failure and course configuration paths
+* Add multiple assignment routing
+* Documentation
+* pypi release
+
+0.1.0  (2016-07-09)
+===================
+* initial release
